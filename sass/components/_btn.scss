@@ -1,0 +1,21 @@
+.btn {
+
+  &:link,&:visited {
+    font-size: 1.6rem;
+    color: var(--color-gray);
+    background-image: var(--color-primary-gradiant);
+    padding: 1.6rem 4.8rem;
+    border-radius: 100px;
+  }
+
+  &--sm:link,&--sm:visited {
+    padding: 1.1rem 3.3rem;
+  }
+
+  &--primary:link,&--:visited {
+    border-radius: 0;
+    padding: 1rem 2.5rem;
+
+  }
+
+}

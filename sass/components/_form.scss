@@ -1,0 +1,37 @@
+.form {
+  padding: 0 3rem;
+  margin-bottom: 10rem;
+
+  @include respond(phone) {
+    margin-bottom: 5rem;
+  }
+
+  &__input {
+    display: block;
+    padding: 1rem;
+    font-family: inherit;
+    margin-bottom: 2rem;
+    width: 85%;
+
+    &::placeholder {
+      font-family: var(--Lexend);
+      font-size: 1.6rem;
+    }
+
+  }
+
+  &__subscribe {
+    font-family: var(--Lexend);
+    background: none;
+    border-radius: 0;
+    background: var(--color-primary-gradiant);
+    display: block;
+    width: 85%;
+    border: none;
+    padding: 1.3rem;
+    color: var(--color-gray);
+    font-size: 1.5rem;
+    cursor: pointer;
+
+  }
+}

@@ -1,0 +1,56 @@
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html,body {
+  overflow-x: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @include respond(tab-land) {
+    font-size: 56.25%;
+  }
+ }
+
+//General styles
+.container {
+  margin: 0 5vw;
+}
+
+h1 {
+  font-family: var(--Lexend);
+}
+
+h2 {
+  font-family: var(--Lexend);
+}
+
+h3 {
+  font-family: var(--Abel);
+}
+
+.btn:link,.btn:visited {
+  font-family: var(--Livvic);
+}
+
+span {
+  font-family: var(--Abel);
+}
+
+p {
+  font-family: var(--Lexend);
+  color: var(--color-gray-light);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

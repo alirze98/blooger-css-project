@@ -1,0 +1,45 @@
+.heading-primary {
+
+  margin-bottom: 5rem;
+
+  &--sub,&--main {
+    display: block;
+  }
+
+  &--sub {
+    font-size: 2.1rem;
+    font-family: var(--Abel);
+    margin-bottom: .5rem;
+  }
+
+  &--main {
+    font-size: 4rem;
+    font-family: var(--Lexend);
+  }
+}
+
+.heading-secondary {
+  font-size: 2.4rem;
+  margin-bottom: 2rem;
+}
+
+.heading-tertiary {
+  font-size: 2.1rem;
+
+
+}
+
+.heading-tags {
+  margin-bottom: 1rem;
+}
+
+.heading-newsletter {
+  margin-bottom: 1rem;
+  margin-top: 15rem;
+  @include respond(tab-land) {
+    margin-top: 5rem;
+  }
+  @include respond(phone) {
+    margin-top: 5rem;
+  }
+}

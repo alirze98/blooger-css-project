@@ -1,0 +1,13 @@
+.category {
+  display: flex;
+  justify-content: space-between;
+  background-image: var(--color-primary-gradiant);
+  padding: .7rem 1.5rem;
+  font-size: 1.6rem;
+  border-radius: 100px;
+  
+  span {
+    font-family: var(--Livvic);
+  }
+  
+}
